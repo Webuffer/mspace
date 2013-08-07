@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>备忘录</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="../js/memorial.js"></script>
+<link href="../css/frontPage.css" rel="stylesheet" type="text/css" />
+<link href="../css/memorial.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="hit_area" onmouseover="toggleDown();">
+<img src="../image/logo3.jpg"/>
+<div class="topMenuContainer">
+<div id="topMenu">
+           <ul>
+           <li ><a href="frontpage.html">首页</a></li>
+           <li><a href="diaryfrontpage.html">日志</a></li>
+           <li ><a href="message.html">留言板</a></li>
+           <li><a href="microMood.html">微心情</a></li>
+           <li><a href="noteTitle.html">笔记</a></li>
+           <li><a id="first" href="memorial.html">备忘录</a></li>
+           <li><a href="uploadfile.html">文档保存</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+   <div id="menu_holder">
+      <div id="nav">
+           <label>欢迎来到Mspace</label>
+ 	<div id="lookup">
+	<input type="image" src="../image/soso.jpg"/>
+      <input type="text" value="搜索、找人" style="font-family:微软雅黑; " />
+	</div>
+   </div>
+</div>
+<div id="hit_area2" onmouseover="toggleUp();">
+<div class="hit2">
+
+<div class="centerContent">
+<div class="center">
+<div class="leftIfo">
+<div class="ifoTit">个人资料</div>
+<div class="Pimage"><a href="pictureFileup.html"><img src="../image/sp.gif" width="140"  height="140" border=0 alt="" /></a></div>
+<div class="UserName"><h2><a href="selfInformation.html">黄丹虹</a></h2></div>
+<table class="FandF">
+<tr>
+<td><a  href="concernedAndFans.html">关注</a><label class="careNum">120</label></td>
+<td><a href="concernedAndFans.html" >粉丝</a><label class="fanNum">766</label></td>
+</tr>
+</table>
+<div class="warn">
+<div class="warnTit"><a href="memorial.html">备忘录</a></div>
+<div class="d1" id="div1" onmouseover="clearInterval(timer)" onmouseout="timer=setInterval(mar,30)">
+   <div class="scroll" id="scroll">
+     <div class="div2" id="div2">
+        <ul>
+          <li>此处显示最新第一条备忘</li>
+	<li>此处显示最新第二条备忘</li>
+        </ul>
+</div>
+<div id="div3" class="div2"></div>
+</div> 
+</div>
+
+</div>
+
+</div>
+<div class="rightFrame">
+<div class="memTit">创建备忘</div>
+<div class="memform">
+<form>
+<table class="writeMemorial">
+<tr><td>
+请选择提醒方式：<select class="memorialWay"><option value="feixin">飞信</option>
+<option value="mail">邮件</option>
+</select></td><td>
+请填写提醒时间：<input class="time" type="text" value="2012" onblur="if(this.value == ''){this.value = '2012'; }" 
+    onfocus="if(this.value == '2012'){this.value =''; }"/>年
+<input  class="time" type="text" value="10" onblur="if(this.value == ''){this.value = '10'; }" 
+    onfocus="if(this.value == '10'){this.value =''; }"/>月
+<input  class="time" type="text" value="18" onblur="if(this.value == ''){this.value = '18'; }" 
+    onfocus="if(this.value == '18'){this.value =''; }"/>日
+<input  class="time" type="text" value="22" onblur="if(this.value == ''){this.value = '22'; }" 
+    onfocus="if(this.value == '22'){this.value =''; }"/>时
+<input  class="time" type="text" value="49" onblur="if(this.value == ''){this.value = '49'; }" 
+    onfocus="if(this.value == '49'){this.value =''; }"/>分
+</td></tr>
+<tr><td colspan=2>
+<textarea onblur="if(this.value == ''){this.value = '请输入备忘内容'; }" 
+    onfocus="if(this.value == '请输入备忘内容'){this.value =''; }">请输入备忘内容</textarea>
+<input type="submit" value="确定" class="button" />
+</td>
+</tr>
+</table>
+</form>
+<table class="memcon" id="Flist">
+<tr>
+<th class="mcon">备忘内容</th>
+<th>提醒方式</th>
+<th>提醒时间</th>
+<th>创建时间</th>
+<th>是否删除</th>
+</tr>
+<tr>
+<td>明天要干嘛、后天要干嘛。。。。。</td>
+<td>飞信</td>
+<td>2012年10月18日23时38分</td>
+<td>2012年10月18日23时38分</td>
+<td><a href="#">删除</a></td>
+</tr>
+<tr>
+<td>明天要干嘛、后天要干嘛。。。。。</td>
+<td>飞信</td>
+<td>2012年10月18日23时38分</td>
+<td>2012年10月18日23时38分</td>
+<td><a href="#">删除</a></td>
+</tr>
+<tr>
+<td>明天要干嘛、后天要干嘛。。。。。</td>
+<td>飞信</td>
+<td>2012年10月18日23时38分</td>
+<td>2012年10月18日23时38分</td>
+<td><a href="#">删除</a></td>
+</tr>
+<tr>
+<td>明天要干嘛、后天要干嘛。。。。。</td>
+<td>飞信</td>
+<td>2012年10月18日23时38分</td>
+<td>2012年10月18日23时38分</td>
+<td><a href="#">删除</a></td>
+</tr>
+<tr>
+<td>明天要干嘛、后天要干嘛。。。。。</td>
+<td>飞信</td>
+<td>2012年10月18日23时38分</td>
+<td>2012年10月18日23时38分</td>
+<td><a href="#">删除</a></td>
+</tr>
+</table>
+<script language="javascript"><!--
+//senfe("表格名称","奇数行背景","偶数行背景","鼠标经过背景","点击后背景");
+senfe("Flist","#efe6aa","#ece8d1","#f0df6a");
+--></script>
+</div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+</body>
+</html>

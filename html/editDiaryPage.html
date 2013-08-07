@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>编辑日志</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="../js/frontPage.js"></script>
+<script type="text/javascript" src="../js/checkDiaryContent.js"></script>
+<link href="../css/writeDiaryPage.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--首页上边固定导航栏-->
+<div id="hit_area" onmouseover="toggleDown();">
+<img src="../image/logo3.jpg"/>
+<div class="topMenuContainer">
+<div id="topMenu">
+           <ul>
+           <li id="first"><a href="frontPage.html">首页</a></li>
+           <li><a href="diaryFrontPage.html">日志</a></li>
+           <li><a href="messageBoard.html">留言板</a></li>
+           <li><a href="microMood.html">微心情</a></li>
+           <li><a href="noteTitle.html">笔记</a></li>
+           <li><a href="memorial.html">备忘录</a></li>
+           <li><a href="upLoadFile.html">文档保存</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+
+<div id="menu_holder">
+      <div id="nav">
+           <label>欢迎来到Mspace</label>    <!--修改-->
+ 	<div id="lookup">
+	<input type="image" src="../image/soso.jpg"/>
+                <input type="text" value="搜索、找人" style="font-family:微软雅黑; " />
+                </div>
+      </div>
+</div>
+
+<div id="hit_area2" onmouseover="toggleUp();">
+<div class="hit2">
+<!--上面还有两个div没有关掉，在</body>前的两个</div>为其关闭-->
+
+<!--主导航条下的主内容开始-->
+<div class="centerContent">
+<div class="center">
+
+<!--日志左边栏开始-->
+<div class="ifoTit">日志编辑</div>
+<!--日志左边栏结束-->
+
+<!--右边栏开始-->
+<div class="rightFrame">
+<div class="actLeft">
+<div class="feel">
+
+<!--日志编辑表单提交开始-->
+<form method="post"  action="#"   name="sign_information">
+<table>
+<tr><td colspan="5">
+<textarea id="title" name="newContentTitle" onblur="if(this.value == ''){this.value = '请输入日志标题'; }"  onfocus="if(this.value == '请输入日志标题'){this.value =''; }">请输入日志标题</textarea>
+</td></tr>
+
+<tr><td colspan="5">
+<textarea class="textarea" id="textarea"  name="newContent" >
+日志内容有时候我们在网页中插入图片，图片会被撑开外部的容器，溢出到外面。css中有一个属性为max-width，max-width 定义元素的最大宽度。W3C在其官方文档中说“所有主流浏览器都支持 max-width 属性。”扯淡，IE6就不支持该属性，图片照样被撑开。IE下，图片会直接把外框撑宽。所以，在做IE兼容的时候大家都用js控制，现在分享下使用jquery控制图片宽度的方法。主代码如下：
+有时候我们在网页中插入图片，图片会被撑开外部的容器，溢出到外面。css中有一个属性为max-width，max-width 定义元素的最大宽度。W3C在其官方文档中说“所有主流浏览器都支持 max-width 属性。”扯淡，IE6就不支持该属性，图片照样被撑开。IE下，图片会直接把外框撑宽。所以，在做IE兼容的时候大家都用js控制，现在分享下使用jquery控制图片宽度的方法。主代码如下：
+有时候我们在网页中插入图片，图片会被撑开外部的容器，溢出到外面。css中有一个属性为max-width，max-width 定义元素的最大宽度。W3C在其官方文档中说“所有主流浏览器都支持 max-width 属性。”扯淡，IE6就不支持该属性，图片照样被撑开。IE下，图片会直接把外框撑宽。所以，在做IE兼容的时候大家都用js控制，现在分享下使用jquery控制图片宽度的方法。主代码如下：
+有时候我们在网页中插入图片，图片会被撑开外部的容器，溢出到外面。css中有一个属性为max-width，max-width 定义元素的最大宽度。W3C在其官方文档中说“所有主流浏览器都支持 max-width 属性。”扯淡，IE6就不支持该属性，图片照样被撑开。IE下，图片会直接把外框撑宽。所以，在做IE兼容的时候大家都用js控制，现在分享下使用jquery控制图片宽度的方法。主代码如下：
+</textarea>
+</td></tr>
+
+<tr><td>
+<img src="../image/submit3.gif" border=0 alt="" name="submit" onclick="return check_content()" />
+</td>
+<td width="188" class="warn_red"  id="M_content"></td></tr>
+</table>
+</form>
+<!--日志编辑表单提交结束-->
+</div>
+</div>
+</div>
+<!--右边栏结束-->
+
+</div>
+</div>
+<!--主导航条下的主内容结束-->
+
+</div>
+</div>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>搜索Ms友</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="../js/frontPage.js"></script>
+<script type="text/javascript" src="../js/detailsMessage.js"></script>
+<script type="text/javascript" src="../js/tellSuccess.js"></script>
+<link href="../css/frontPage.css" rel="stylesheet" type="text/css" />
+<link href="../css/selfInformation.css" rel="stylesheet" type="text/css" />
+<link href="../css/searchAndconcern.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="hit_area" onmouseover="toggleDown();">
+<img src="../image/logo3.jpg"/>
+<div class="topMenuContainer">
+<div id="topMenu">
+           <ul>
+           <li id="first"><a href="frontPage.html">首页</a></li>
+           <li><a href="diaryFrontPage.html">日志</a></li>
+           <li><a href="messageBoard.html">留言板</a></li>
+           <li><a href="microMood.html">微心情</a></li>
+           <li><a href="noteTitle.html">笔记</a></li>
+           <li><a href="memorial.html">备忘录</a></li>
+           <li><a href="upLoadFile.html">文档保存</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+   <div id="menu_holder">
+      <div id="nav">
+           <label>欢迎来到Mspace</label> <!--修改-->
+ 	<div id="lookup">
+	<input type="image" src="../image/soso.jpg"/>
+       <input type="text" value="搜索、找人" style="font-family:微软雅黑; " />
+	</div>
+   </div>
+</div>
+<div id="hit_area2" onmouseover="toggleUp();">
+<div class="hit2">
+
+<div class="centerContent">
+<div class="center">
+<div class="leftIfo">
+<div class="ifoTit">个人资料</div>
+<div class="Pimage"><a href="pictureFileup.html"><img src="../image/sp.gif" width="140"  height="140" border=0 alt="" /></a></div>
+<div class="UserName"><h2><a href="selfInformation.html">黄丹虹</a></h2></div>
+<table class="FandF">
+<tr>
+<td><a  href="concernedAndFans.html">关注</a><label class="careNum">120</label></td>
+<td><a href="concernedAndFans.html" >粉丝</a><label class="fanNum">766</label></td>
+</tr>
+</table>
+<div class="warn">
+<div class="warnTit"><a href="memorial.html">备忘录</a></div>
+<div class="d1" id="div1" onmouseover="clearInterval(timer)" onmouseout="timer=setInterval(mar,30)">
+   <div class="scroll" id="scroll">
+     <div class="div2" id="div2">
+        <ul>
+          <li>后天xx生日了后天xx生日了后天xx生日了</li>
+	<li>明天交作业</li>
+        </ul>
+</div>
+<div id="div3" class="div2"></div>
+</div> 
+</div>
+
+</div>
+
+</div>
+<div class="rightFrame">
+
+<div class="action2">
+<div class="bar">
+    <ul class="nav2">
+        <li><a href="SelfInformation.html">个人资料</a></li>
+        <li><a href="PictureFileUp.html">上传头像</a></li>
+        <li><a href="ChangePassword.html">修改密码</a></li>
+        <li><a href="ConcernedAndFans.html">关注与粉丝</a></li>
+        <li><a href="searchAndConcern.html">搜索Ms友</a></li>
+    </ul>
+</div>
+</div>
+
+<!-- 搜索Ms友 开始 -->
+<div class="actLeft">
+
+<div class="feel">
+<input type="text" name="search"  class="search" value="搜索Mspace的友友" onfocus="if(this.value=='搜索Mspace的友友'){this.value='';}" />
+<input type="button" name="click" value="Go" class="button"/>
+<div>
+搜索结果...<br>
+
+<!--特别注意一下 id 的有序变化-->
+
+<div class="linkMs">
+<table>
+<tr><td rowspan="2">
+<img src="../image/vae.jpg" width="60" height="60" border=0 alt=" " /></td>
+<td><a href="#" id="up_message1" onclick="show_message(1)">许嵩</a></td>
+</tr>
+<tr>
+<td><a href="#" onclick="tellSuccess(1)" id="in_success1">加关注</a></td>
+<td id="out_success1" style="display:none;">关注成功</td>
+</tr>
+</table>
+<span id="down_message1" style="display: none;">许嵩是中国大陆新歌手，有音乐鬼才的称号！许嵩的关注 98 粉丝 9800000 </span>
+</div>
+
+<div class="linkMs">
+<table>
+<tr><td rowspan="2">
+<img src="../image/vae.jpg" width="60" height="60" border=0 alt=" " /></td>
+<td><a href="#" id="up_message2" onclick="show_message(2)">许嵩</a></td>
+</tr>
+<tr>
+<td><a href="#" onclick="tellSuccess(2)" id="in_success2">加关注</a></td>
+<td id="out_success2" style="display:none;">关注成功</td>
+</tr>
+</table>
+<span id="down_message2" style="display: none;">许嵩是中国大陆新歌手，有音乐鬼才的称号！许嵩的关注 98 粉丝 9800000 </span>
+</div>
+
+<div class="linkMs">
+<table>
+<tr><td rowspan="2">
+<img src="../image/vae.jpg" width="60" height="60" border=0 alt=" " /></td>
+<td><a href="#" id="up_message3" onclick="show_message(3)">许嵩</a></td>
+</tr>
+<tr>
+<td><a href="#" onclick="tellSuccess(3)" id="in_success3">加关注</a></td>
+<td id="out_success3" style="display:none;">关注成功</td>
+</tr>
+</table>
+<span id="down_message3" style="display: none;">许嵩是中国大陆新歌手，有音乐鬼才的称号！许嵩的关注 98 粉丝 9800000 </span>
+</div>
+
+</div>
+
+</div>
+
+<br><br>
+
+<!--搜索Ms友 结束-->
+
+</div>
+
+</div>
+</div>
+</body>
+</html>

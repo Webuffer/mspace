@@ -1,0 +1,5 @@
+﻿/* 头像上传框及按钮的样式 */
+.file-box{ position:absolute;width:340px;margin-left:150px;margin-top:-57px; font-family:微软雅黑,Arial; }
+.txt{ height:22px; border:1px solid #cdcdcd; width:180px; font-family:微软雅黑,Arial; }
+.botton{ background-color:#FFF; border:1px solid #CDCDCD;height:24px; width:70px;  font-family:微软雅黑,Arial; }
+.file{ position:absolute; top:0; right:80px; height:24px; filter:alpha(opacity:0);opacity: 0;width:260px;  font-family:微软雅黑,Arial; }

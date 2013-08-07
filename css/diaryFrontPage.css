@@ -1,0 +1,446 @@
+﻿/* this is used to style the turotial page.Download by http://www.codefans.net */
+body {
+	
+	margin: 0px;
+	padding: 0px;
+	font-family: 微软雅黑, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;    /* 修改 */
+	color: #666666;
+	line-height: 180%;
+}
+
+
+/* this is the CSS for the menu that you will need. */
+#menu_holder {
+	height: 40px;
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: -40px;
+}
+#nav {
+	height: 40px;
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+	background-image: url(../image/middle.png);
+	background-repeat: repeat-x;
+	background-position: right;
+}
+
+#hit_area {
+	height: 100px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	background-color:#80c3e6;
+}
+
+
+#menu_holder label{
+float:left;
+}
+#lookup{
+margin-top:5px;
+padding:0px;
+float:right;
+}
+#lookup input{
+float:right;
+font-size:14px;
+font-family:微软雅黑, Arial,Helvetica, sans-serif; /*增加的样式*/
+} 
+
+
+#hit_area2 {
+	width: 100%;
+	height:1000px;
+	display: block;
+	position: absolute;
+	margin: 0px;
+	left: 0px;
+	top: 120px;
+
+	padding:0px;
+}
+.hit2{
+float:left;
+width:100%;
+padding:0px;
+}
+
+.centerContent{
+	width: 1100px;
+	height:900px;
+	
+	margin-right: auto;
+	margin-left: auto;
+	padding:0px;
+	
+}
+.center{
+background-color:#f0edcf;
+padding-top: 0px;
+padding-bottom: 30px;
+float:left;
+}
+.topMenuContainer{
+width:588px;
+padding:0px;
+margin-top:0px;
+position:absolute;
+left:390px;
+top:60px;
+
+}
+#topMenu{
+	border-top:1px solid #ffffff;
+        height: 40px;
+	width:588px;
+	margin: 0px auto;
+	padding: 0px;
+	background-position: right;
+        background-image: url(../image/right1.png);
+	background-repeat: no-repeat;
+
+}
+#topMenu ul {
+	margin: 0px;
+	padding: 0px 0px 0px 14px;
+	height: 40px;
+	list-style-type: none;
+	background-image: url(../image/left1.png);
+	background-repeat: no-repeat;
+}
+#topMenu li{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	
+}
+#topMenu #first{
+background-color:#b75d5d;
+
+}
+#topMenu li a:link, #topMenu li a:active, #topMenu li a:visited {
+	background-image: url(../image/middle.png);
+	background-repeat: repeat-x;
+	height: 40px;
+	width:80px;
+	display: block;
+	line-height: 40px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	font-family:  微软雅黑, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 110%;
+}
+#topMenu li a:focus, #topMenu li a:hover{
+	text-decoration : none;
+	-moz-outline:0;
+	color: #FFFFFF;
+	background-image: url(../image/rollOver1.png);
+	background-repeat: repeat-x;
+}
+
+.leftIfo{
+width:200px;
+height:100%;
+float:left;
+text-align:center;
+padding-top:0px;
+
+}
+.rightFrame{
+
+width:898px;
+
+overflow-y:visible;
+float:right;
+padding-top:0px;
+border-left:1px solid #ffffff;
+}
+
+.ifoTit{
+font-family:  微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+background-image:url(../image/ifo.gif);
+text-align:left;
+padding-left:10px;
+}
+.ifoTit2{
+font-family:  微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+background-image:url(../image/ifo.gif);
+text-align:left;
+margin-top:20px;
+padding-left:10px;
+}
+
+.Pimage{
+margin-left:auto;
+margin-right:auto;
+}
+.sex{
+font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+.UserName a{
+color:#0a70e2;
+text-decoration:none;
+padding:5px auto 5px auto;
+
+}
+.FandF{
+margin-left:auto;
+margin-right:auto;
+}
+.FandF a{
+font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 120%;
+padding:5px 5px 5px 5px;
+color:#0a70e2;
+text-decoration:none;
+margin-left:auto;
+margin-right:auto;
+}
+.FandF a:hover,.UserName a:hover,.warnTit a:hover,.FandF a:focus,.UserName a:focus,.warnTit a:focus{
+color:#f282e1;
+text-decoration:underline;
+}
+
+
+.warnTit{
+font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+background-image:url(../image/ifo.gif);
+text-align:left;
+}
+.warnTit a{
+text-decoration:none;
+color:#000000;
+}
+.warning{
+padding-top:5px;
+text-align:left;
+border-bottom:1px solid #ffffff;
+}
+.d1 {
+margin:4px auto;
+width:196px;
+overflow:hidden;
+white-space:nowrap;
+}
+
+.div2 {float:left;}
+
+.div2 ul{
+margin:0px;
+padding:0px;
+list-style-type:none;
+}
+.div2 ul li{
+margin-bottom:5px;
+border-bottom:1px solid #ffffff;
+background-color:#FFEEE2;
+}
+.action{
+border-bottom:1px solid #ffffff;
+padding:0px;
+background-image:url(../image/action1.gif);
+background-repeat:no-repeat;
+background-position:left;
+font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding-left:13px;
+}
+
+
+.actLeft{
+width:664px;
+height:auto;
+float:left;
+border-right:1px solid #ffffff;
+padding:10px;
+overflow-y:visible;
+}
+.actRight{
+width:210px;
+height:auto;
+float:right;
+padding:0px;
+overflow-y:visible;
+}
+.feel{
+border-bottom:1px solid #ffffff;
+}
+
+.feel textarea{
+width:400px;
+height:70px;
+overflow-y:hidden
+}
+
+.feel .feelLab,.Daily .dailyLab{
+margin-top:10px;
+background-image:url(../image/action1.gif);
+background-repeat:no-repeat;
+background-position:left;
+padding-left:25px;
+}
+.actRight .messTit{
+margin-top:-27px;
+margin-left:-4px;
+background-image:url(../image/action1.gif);
+background-repeat:no-repeat;
+background-position:left;
+padding-left:18px;
+border-left:1px solid #ffffff;
+font-weight:bold;
+}
+.feel .feelLab a,.Daily .dailyLab a,.actRight .messTit a{
+font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+color:#000000;
+text-decoration:none;
+}
+
+.feel .feelLab a:hover,.Daily .dailyLab a:hover,.actRight .messTit a:hover{
+color:#f282e1;
+text-decoration:underline;
+}
+.feeling .Feeldate{
+color:#23b7e7;
+}
+.Daily{
+overflow-y:visible;
+height:auto;
+}
+
+.Daily Dtitle{
+color:#000000;
+}
+a.Dbut:hover{
+color:#f282e1;
+}
+.Ddate ,.Dbutt{
+width:100px;
+}
+
+.Dtitle{
+width:400px;
+}
+.Dcontent{
+background-color:#d4d6d1;
+}
+.actRight a{
+color:#23b7e7;
+}
+.actRight a:hover{
+color:#f282e1;
+}
+.mes1 td{
+border-bottom:1px solid #ffffff;
+padding-bottom:5px;
+}
+
+
+
+#expression a{
+text-decoration:none;
+}
+#expression{
+z-index:1;
+position:absolute;
+left:800px;
+top:140px;
+background-color:#ffffff;
+}
+#expression table{
+text-align:center;
+border:1px solid #000000;
+
+}
+table a:hover{
+color:#ffabcd;
+}
+
+
+/* 日志展示下面的翻页条样式 */
+#p1 {
+margin-left:240px;
+margin-top:50px;
+}
+#p1 a {
+margin:6px;
+background-color:#52a7ef;
+text-decoration:none;
+font-size:100%;
+font-weight:bold;
+font-family:微软雅黑, Arial;
+color:#ffffff;
+padding:3px 5px 3px 5px; }
+.current {
+margin:6px;
+background-color:purple;
+text-decoration:none;
+font-size:100%;
+font-weight:bold;
+font-family:微软雅黑, Arial;
+color:#ffffff;
+padding:3px 5px 3px 5px; }
+/* 翻页条样式结束 */
+
+/* 日志首页左边归类列表的样式 */
+.writeDiary {margin-top:10px;  }
+.all,.bin { float:left; margin-top:15px;  margin-left:40px; }
+.all span,.bin span {color:blue;}
+/* ”只看标题“ 的样式 */
+.link3 a {text-decoration:none; float:right; }
+.link3 a:link {color:purple;}
+.link3 a:visited {color:purple;}
+.link3 a:hover {color:#f60;}
+/*页面普通链接的样式 */
+.link4 a {text-decoration:none;}
+.link4 a:link {color:purple;}
+.link4 a:visited {color:purple;}
+.link4 a:hover {color:#f60;}
+ul,li {list-style:none; margin:0; padding:0;}
+.nav3 li a { font-family:微软雅黑 , Arial; font-size:100%;display:block; padding:2px 2px; text-decoration:none; text-align:left; padding-left: 25px; color:#666;}
+.nav3 li a:link {background:#f0edcf;}
+.nav3 li a:visited {background:#f0edcf;}
+.nav3 li a:hover {background:#f60;}
+
+.hr { border: 1px solid #ffffff; }
+.head3 {text-align:left; margin-left: 10px; margin-bottom: -8px; margin-top: 5px; }
+/*日志首页左边归类列表的样式 结束 */
+
+/*日志展示内容的样式 */
+.diaryTitle {font-size:15px; font-weight: bold; margin-top:10px; }
+.diaryTitle a {text-decoration:none;  }
+.diaryTitle a:link {color: #666666;}
+.diaryTitle a:visited {color: #666666;}
+.diaryTitle a:hover {color:#f60;}
+.diaryTime{font-size:15px; font-weight: normal;  float:right; }
+
+.diaryInformation{font-size:15px; font-weight: normal;  float:right; }
+.diaryInformation a {text-decoration:none;}
+.diaryInformation a:link {color:purple;}
+.diaryInformation a:visited {color:purple;}
+.diaryInformation a:hover {color:#f60;}
+
+.head5 {text-align:left; margin-left: 0px; margin-bottom: -8px; margin-top: 10px; }
+
+.textarea {font-family:微软雅黑, Arial; font-size:14px; }
+
+
+
+
+
+
+
+
+

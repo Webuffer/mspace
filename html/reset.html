@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>密码重置</title>
+<link href="../css/loadingstyle.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="javascript" src="../js/resetWarming.js"></script>
+</head>
+
+<body id="body">
+<!-- 输入邮箱和昵称对应后才能重置密码-->
+<div class="logoStyle">
+<img src="../image/rollstar1.jpg" border=0 alt="" width="50" height="50">
+<img src="../image/rollstar2.jpg" border=0 alt="" width="60" height="60">
+<img src="../image/rollstar3.jpg" border=0 alt="" width="70" height="70">
+<img src="../image/loginlogo2.jpg" border=0 alt="">
+<img src="../image/rollstar3.jpg" border=0 alt="" width="70" height="70">
+<img src="../image/rollstar2.jpg" border=0 alt="" width="60" height="60">
+<img src="../image/rollstar1.jpg" border=0 alt="" width="50" height="50">
+</div>
+<!--页眉横框设计-->
+<div id="navigation" class="simplepage" style="color:#333333;font:13px "微软雅黑";text-align:center;margin:0;padding:0; backgroud-color:#ffffff;">
+<p>
+您的位置：
+<a href="login.html">登录站点</a>
+>><a href="getBack.html">找回密码</a>
+>>申请重置
+</p>
+<h1>密码重置</h1>
+</div>
+
+<div align="center" valign="middle">
+
+<table width="500" border="0" cellspacing="10" cellpadding="0">
+ <form method="post" onsubmit="return checkform()" action="#" name="sign_table">
+<br><br>
+  <tr>
+    <td width="89">登录密码</td>
+    <td width="223"><input name="password" type="password" id="password" class="box" /></td>
+    <td width="188" id="p_msg" class="c_red"></td>
+  </tr>
+  <tr>
+    <td width="89">重复密码</td>
+	<td width="223"><input name="password_confirm" type="password"  id="password_confirm"              class="box" /></td>
+	<td width="188" id="p_confirm" class="c_red"></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td colspan="3" align="center"><input name="submit" type="submit" value="提交申请"  class="box2"  /></td>
+  </tr>
+  </form>
+</table>
+</div>
+</body>
+</html> 

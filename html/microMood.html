@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>微心情</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="../js/microMood.js"></script>
+<script type="text/javascript" src="../js/pageBarJQ.js"></script> 
+<script type="text/javascript" src="../js/pageBar.js"></script>
+<link href="../css/frontPage.css" rel="stylesheet" type="text/css" />
+<link href="../css/microMood.css" rel="stylesheet" type="text/css" />
+<link href="../css/diaryFrontPage.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="hit_area" onmouseover="toggleDown();">
+<img src="../image/logo3.jpg"/>
+<div class="topMenuContainer">
+<div id="topMenu">
+           <ul>
+           <li><a href="frontPage.html">首页</a></li>
+           <li><a href="diaryFrontPage.html">日志</a></li>
+           <li><a href="messageBoard.html">留言板</a></li>
+           <li id="first"><a href="microMood.html">微心情</a></li>
+           <li><a href="noteTitle.html">笔记</a></li>
+           <li><a href="memorial.html">备忘录</a></li>
+           <li><a href="upLoadFile.html">文档保存</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+   <div id="menu_holder">
+      <div id="nav">
+           <label>欢迎来到Mspace</label> <!--修改-->
+ 	<div id="lookup">
+	<input type="image" src="../image/soso.jpg"/>
+       <input type="text" value="搜索、找人" style="font-family:微软雅黑; " />
+	</div>
+   </div>
+</div>
+<div id="hit_area2" onmouseover="toggleUp();">
+<div class="hit2">
+
+<div class="centerContent">
+<div class="center">
+<div class="leftIfo">
+<div class="ifoTit">个人资料</div>
+<div class="Pimage"><a href="pictureFileup.html"><img src="../image/sp.gif" width="140"  height="140" border=0 alt="" /></a></div>
+<div class="UserName"><h2><a href="selfInformation.html">黄丹虹</a></h2></div>
+<table class="FandF">
+<tr>
+<td><a  href="concernedAndFans.html">关注</a><label class="careNum">120</label></td>
+<td><a href="concernedAndFans.html" >粉丝</a><label class="fanNum">766</label></td>
+</tr>
+</table>
+<div class="warn">
+<div class="warnTit"><a href="memorial.html">备忘录</a></div>
+<div class="d1" id="div1" onmouseover="clearInterval(timer)" onmouseout="timer=setInterval(mar,30)">
+   <div class="scroll" id="scroll">
+     <div class="div2" id="div2">
+        <ul>
+          <li>后天xx生日了后天xx生日了后天xx生日了</li>
+	<li>明天交作业</li>
+        </ul>
+</div>
+<div id="div3" class="div2"></div>
+</div> 
+</div>
+
+</div>
+
+</div>
+<div class="rightFrame">
+<div class="action">灰常心情</div>
+<div class="feel">
+<form>
+<table>
+<tr>
+<td rowspan="2">
+<textarea class="feel2" onblur="if(this.value == ''){this.value = '现在心情如何，赶紧跟大家分享一下～～'; }" 
+    onfocus="if(this.value == '现在心情如何，赶紧跟大家分享一下～～'){this.value =''; }" 
+>现在心情如何，赶紧跟大家分享一下～～</textarea> 
+</td>
+<td><img src="../image/face.gif" alt="表情" onclick="showExpression();"/></td>
+</tr>
+<tr><td><input type="image" src="../image/declare.gif"/></td></tr>
+<tr><td><div class="moodWarm">亲！不要输入空白心情啊！</div></td></tr>
+</table>
+</form>
+</div>
+<div class="feelLab">最近心情</div>
+<ul id="list" >
+<li>
+<!--下面的内容都是一样的，复制黏贴就行了-->
+<div class="xinqing">
+<div class="feeling"><label class="user"><a href="#">钟政</a></label>今天心情好才怪，讨厌的感觉，讨厌的感觉，讨厌的感觉，讨厌的感觉当然好的发挥发挥地方<br/><label class="time">约10分钟前</label><label class="pinglun"><a href="#" onclick="showRtxt('1');"/>评论</a></label><label class="pinglun"><a href="#">删除</a></label>
+<div id="text1" style="display:none;">
+<!--点击确定后下面的输入框就不要显示了-->
+
+<textarea class="ResTxt"></textarea>
+<input type="button" value="确定" />
+<div class="emptymood">亲，不能发表没有内容的评论哟！</div>
+</div><!--end Rest1-->
+</div><!--end feeling-->
+<div class="hf"><label class="fuser"><a href="#">来一发</a></label>你说什么？<br/><label class="ftime">2012-9-27-12：00</label><label class="huifu"><a href="#" onclick="showRtxt('2');"/>回复</a></label><label class="pinglun"><a href="#">删除</a></label>
+<div id="text2" style="display:none;">
+
+<textarea class="ResTxt"></textarea><br/>
+<input type="button" value="确定" />
+<div class="emptymood">亲，不能发表没有内容的回复哟！</div>
+</div><!--end Rest2-->
+</div><!--end hf-->
+</div><!--end xinqing-->
+
+<div class="xinqing">
+<div class="feeling"><label class="user"><a href="#">钟政</a></label>今天心情好才怪，讨厌的感觉，讨厌的感觉，讨厌的感觉，讨厌的感觉当然好的发挥发挥地方<br/><label class="time">约10分钟前</label><label class="pinglun"><a href="#" onclick="showRtxt('3');"/>评论</a></label><label class="pinglun"><a href="#">删除</a></label>
+<div id="text3" style="display:none;">
+<!--点击确定后下面的输入框就不要显示了-->
+<textarea class="ResTxt"></textarea>
+<input type="button" value="确定" />
+<div class="emptymood">亲，不能发表没有内容的评论哟！</div>
+</div><!--end Rest1-->
+</div><!--end feeling-->
+<div class="hf"><label class="fuser"><a href="#">来一发</a></label>你说什么？<br/><label class="ftime">2012-9-27-12：00</label><label class="huifu"><a href="#" onclick="showRtxt('4');"/>回复</a></label><label class="pinglun"><a href="#">删除</a></label>
+<div id="text4" style="display:none;">
+<textarea class="ResTxt"></textarea><br/>
+<input type="button" value="确定" />
+<div class="emptymood">亲，不能发表没有内容的回复哟！</div>
+</div><!--end Rest2-->
+</div><!--end hf-->
+</div><!--end xinqing-->
+
+</li>
+
+<li>
+<!--下面的内容都是一样的，复制黏贴就行了-->
+<div class="xinqing">
+<div class="feeling"><label class="user"><a href="#">坚鹏</a></label>今天心情好才怪，讨厌的感觉，讨厌的感觉，讨厌的感觉，讨厌的感觉当然好的发挥发挥地方<br/><label class="time">约10分钟前</label><label class="pinglun"><a href="#" onclick="showRtxt('1');"/>评论</a></label><label class="pinglun"><a href="#">删除</a></label>
+<div id="text1" style="display:none;">
+<!--点击确定后下面的输入框就不要显示了-->
+
+<textarea class="ResTxt"></textarea>
+<input type="button" value="确定" />
+<div class="emptymood">亲，不能发表没有内容的评论哟！</div>
+</div><!--end Rest1-->
+</div><!--end feeling-->
+<div class="hf"><label class="fuser"><a href="#">来一发</a></label>你说什么？<br/><label class="ftime">2012-9-27-12：00</label><label class="huifu"><a href="#" onclick="showRtxt('2');"/>回复</a></label><label class="pinglun"><a href="#">删除</a></label>
+<div id="text2" style="display:none;">
+
+<textarea class="ResTxt"></textarea><br/>
+<input type="button" value="确定" />
+<div class="emptymood">亲，不能发表没有内容的回复哟！</div>
+</div><!--end Rest2-->
+</div><!--end hf-->
+</div><!--end xinqing-->
+
+<div class="xinqing">
+<div class="feeling"><label class="user"><a href="#">坚鹏</a></label>今天心情好才怪，讨厌的感觉，讨厌的感觉，讨厌的感觉，讨厌的感觉当然好的发挥发挥地方<br/><label class="time">约10分钟前</label><label class="pinglun"><a href="#" onclick="showRtxt('3');"/>评论</a></label><label class="pinglun"><a href="#">删除</a></label>
+<div id="text3" style="display:none;">
+<!--点击确定后下面的输入框就不要显示了-->
+<textarea class="ResTxt"></textarea>
+<input type="button" value="确定" />
+<div class="emptymood">亲，不能发表没有内容的评论哟！</div>
+</div><!--end Rest1-->
+</div><!--end feeling-->
+<div class="hf"><label class="fuser"><a href="#">来一发</a></label>你说什么？<br/><label class="ftime">2012-9-27-12：00</label><label class="huifu"><a href="#" onclick="showRtxt('4');"/>回复</a></label><label class="pinglun"><a href="#">删除</a></label>
+<div id="text4" style="display:none;">
+<textarea class="ResTxt"></textarea><br/>
+<input type="button" value="确定" />
+<div class="emptymood">亲，不能发表没有内容的回复哟！</div>
+</div><!--end Rest2-->
+</div><!--end hf-->
+</div><!--end xinqing-->
+
+</li>
+
+</ul>
+<!--下面是分页条的实现位置，注意别修改 id-->
+<div id="p1"></div>
+
+</div>
+
+
+</div><!--end rightFrame-->
+
+</div><!--end center-->
+</div><!--end centerContent-->
+</div><!--end hit2-->
+</div><!--end hit_area2-->
+
+</body>
+
+</html>

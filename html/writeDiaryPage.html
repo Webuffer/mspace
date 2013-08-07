@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>新建日志</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="../js/frontPage.js"></script>
+<script type="text/javascript" src="../js/checkDiaryContent.js"></script>
+<link href="../css/writeDiaryPage.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--首页上边固定导航栏-->
+<div id="hit_area" onmouseover="toggleDown();">
+<img src="../image/logo3.jpg"/>
+<div class="topMenuContainer">
+<div id="topMenu">
+           <ul>
+           <li id="first"><a href="frontPage.html">首页</a></li>
+           <li><a href="diaryFrontPage.html">日志</a></li>
+           <li><a href="messageBoard.html">留言板</a></li>
+           <li><a href="microMood.html">微心情</a></li>
+           <li><a href="noteTitle.html">笔记</a></li>
+           <li><a href="memorial.html">备忘录</a></li>
+           <li><a href="upLoadFile.html">文档保存</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+
+<div id="menu_holder">
+      <div id="nav">
+           <label>欢迎来到Mspace</label>    <!--修改-->
+ 	<div id="lookup">
+	<input type="image" src="../image/soso.jpg"/>
+                <input type="text" value="搜索、找人" style="font-family:微软雅黑; " />
+                </div>
+      </div>
+</div>
+
+<div id="hit_area2" onmouseover="toggleUp();">
+<div class="hit2">
+<!--上面还有两个div没有关掉，在</body>前的两个</div>为其关闭-->
+
+<!--主导航条下的主内容开始-->
+<div class="centerContent">
+<div class="center">
+
+<div class="ifoTit">新建日志</div>
+
+<!--右边栏开始-->
+<div class="rightFrame">
+<div class="actLeft">
+<div class="feel">
+<!--新建日志以表单形式发送到后台开始-->
+<form method="post"  action="#"   name="write_information">
+<table>
+<tr><td colspan="5">
+<textarea id="title" name="newContentTitle" onblur="if(this.value == ''){this.value = '请输入日志标题'; }"  onfocus="if(this.value == '请输入日志标题'){this.value =''; }">请输入日志标题</textarea>
+</td></tr>
+
+<tr><td colspan="5">
+<textarea id="textarea"  name="newContent"></textarea>
+</td></tr>
+
+<tr><td>
+<img src="../image/submit3.gif" border=0 alt="" name="submit" onclick="return check_content()" />
+</td>
+<td width="188" class="warn_red"  id="M_content">
+</td></tr>
+</table>
+</form>
+<!--新建日志以表单形式发送到后台结束-->
+</div>
+</div>
+</div>
+<!--右边栏结束-->
+
+</div>
+</div>
+<!--主导航条下的主内容结束-->
+
+</div>
+</div>
+
+
+</body>
+</html>
+
+

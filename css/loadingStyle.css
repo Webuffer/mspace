@@ -1,0 +1,78 @@
+﻿#body{
+font-family:"微软雅黑";
+font-size:15px;
+font-style:normal;
+
+}
+/* 登录邮箱框和密码框的样式 */
+input.box{    
+       height:30px;    
+       inline-height:25px;  
+       font-size:15px;
+       font-family:"微软雅黑";    
+       width:250px;   
+       text-align:left;  
+       border:#ccc 1px solid;  
+       border-radius: 5px; /* css 3标准 */  
+       -moz-border-radius: 5px;  /* mozilla */  
+       -webkit-border-radius: 5px;  /* webkit */  
+} 
+/* 登录和提交按钮的样式 */
+input.box2{
+       color:blue;   
+       width:100px; 
+       height:30px; 
+       text-align:center;   
+       font-family:微软雅黑;   
+       font-size:15px; 
+} 
+/* 输入框错误提示文字的样式 */
+.c_red{ color:#f00;font:15px 微软雅黑 }
+.link_color{
+link="ff0000"
+alink="00ff00" 
+vlink="cccccc"
+}
+/* 界面上方蓝色信息指引条的样式 */
+#navigation {
+text-align: left;
+margin-top:-30px;
+margin-left:10px;
+margin-right:10px;
+}
+#navigation.simplepage {
+background: none repeat scroll 0 0 #EFF5FF;
+border-bottom: 1px solid #009DEA;
+border-top: 2px solid #009DEA;
+line-height: 25px;
+margin-top: 5px;
+margin-bottom: 1em;
+padding: 0;
+}
+#navigation.simplepage h1{
+font-size: 1em;
+margin: 0;
+padding-left:0.5em;
+}
+#navigation.simplepage p {
+text-align:right;
+margin:0;
+padding-right: 0.5em;
+}
+#navigation.simplepage a {
+text-decoration:none;
+}
+a:visited {
+color: #202859;
+}
+p {
+line-height: 19px;
+}
+.login_a a{
+text-decoration:none;
+}
+.logoStyle{
+text-align: center;
+margin-top:-20px;
+}
+

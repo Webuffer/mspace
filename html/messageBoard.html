@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>留言板</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="../js/messageBoard.js"></script>
+<link href="../css/messageBoard.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="hit_area" onmouseover="toggleDown();">
+<img src="../image/logo3.jpg"/>
+<div class="topMenuContainer">
+<div id="topMenu">
+           <ul>
+           <li ><a href="frontpage.html">首页</a></li>
+           <li><a href="diaryfrontpage.html">日志</a></li>
+           <li id="first"><a href="messageBoard.html">留言板</a></li>
+           <li><a href="microMood.html">微心情</a></li>
+           <li><a href="noteTitle.html">笔记</a></li>
+           <li><a href="memorial.html">备忘录</a></li>
+           <li><a href="uploadfile.html">文档保存</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+   <div id="menu_holder">
+      <div id="nav">
+           <label>欢迎来到Mspace</label>
+ 	<div id="lookup">
+	<input type="image" src="../image/soso.jpg"/>
+       <input type="text" value="搜索、找人" style="font-family:微软雅黑; " />
+	</div>
+   </div>
+</div>
+<div id="hit_area2" onmouseover="toggleUp();">
+<div class="hit2">
+
+<div class="centerContent">
+<div class="center">
+<div class="leftIfo">
+<div class="ifoTit">个人资料</div>
+<div class="Pimage"><a href="pictureFileup.html"><img src="../image/sp.gif" width="140"  height="140" border=0 alt="" /></a></div>
+<div class="UserName"><h2><a href="selfInformation.html">黄丹虹</a></h2></div>
+<table class="FandF">
+<tr>
+<td><a  href="concernedAndFans.html">关注</a><label class="careNum">120</label></td>
+<td><a href="concernedAndFans.html" >粉丝</a><label class="fanNum">766</label></td>
+</tr>
+</table>
+<div class="warn">
+<div class="warnTit"><a href="memorial.html">备忘录</a></div>
+<div class="d1" id="div1" onmouseover="clearInterval(timer)" onmouseout="timer=setInterval(mar,30)">
+   <div class="scroll" id="scroll">
+     <div class="div2" id="div2">
+        <ul>
+          <li>后天xx生日了后天xx生日了后天xx生日了</li>
+	<li>明天交作业</li>
+        </ul>
+</div>
+<div id="div3" class="div2"></div>
+</div> 
+</div>
+
+</div>
+
+</div>
+<div class="rightFrame">
+<div class="mtit">留言吧</div>
+<div class="mtxt"><form><textarea  onblur="if(this.value == ''){this.value = '不吐槽，咱们留言吧～～'; }" 
+    onfocus="if(this.value == '不吐槽，咱们留言吧～～'){this.value =''; }">不吐槽，咱们留言吧～～</textarea><input type="image" src="../image/mdec.gif"/></form></div>
+<div class="allMall">
+<div class="Mall">
+<table class="OneMess" >
+<tr valign=“top"><td class="resimg">
+<table class="ResIfo">
+<tr ><td >
+<img src="../image/sp.gif"/></td></tr>
+<tr><td class="resifo2"><a href="#">黄丹虹</a></td></tr>
+</table>
+</td>
+<td class="rescon">
+
+<ul class="oneM">
+<div class="Mdate"><span>第一楼</span><span>2012-09-28</span><span>留言</span><span><input type="button" value="回复" onclick="showRtxt('1');"/></span><span><input type="button" value="删除"/></span></div>
+<div class="Mess">明天我要回家、要回家、要回家～～</div>
+<li>
+<table class="whoRes">
+<tr><td class="WhoR"><img src=""/></td><td><a href="#">小蜗牛</a>好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。</td></tr>
+</table>
+<div class="Mdate">2012-09-28</div>
+</li>
+<li>
+<table class="whoRes">
+<tr><td class="WhoR"><img src=""/></td><td><a href="#">小蜗牛</a>好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。</td></tr>
+</table>
+<div class="Mdate">2012-09-28</div>
+</li>
+<li>
+<table class="whoRes">
+<tr><td class="WhoR"><img src=""/></td><td><a href="#">小蜗牛</a>好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。</td></tr>
+</table>
+<div class="Mdate">2012-09-28</div>
+</li>
+<form>
+<div id="Rest1" style="display:none;">
+<textarea class="ResTxt"></textarea>
+<input type="submit" value="确定"/>
+</form>
+</div>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+
+<div class="Mall">
+<table class="OneMess" >
+<tr valign=“top"><td class="resimg">
+<table class="ResIfo">
+<tr><td >
+<img src="../image/sp.gif"/></td></tr>
+<tr><td class="resifo2"><a href="#">黄丹虹</a></td></tr>
+</table>
+</td>
+<td class="rescon">
+
+<ul class="oneM">
+<div class="Mdate"><span>第一楼</span><span>2012-09-28</span><span>留言</span><span><input type="button" value="回复" onclick="showRtxt('2');"/></span><span><input type="button" value="删除"/></span></div>
+<div class="Mess">明天我要回家、要回家、要回家～～</div>
+<li>
+<table class="whoRes">
+<tr><td class="WhoR"><img src=""/></td><td><a href="#">小蜗牛</a>好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。</td></tr>
+</table>
+<div class="Mdate">2012-09-28</div>
+</li>
+<li>
+<table class="whoRes">
+<tr><td class="WhoR"><img src=""/></td><td><a href="#">小蜗牛</a>好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。</td></tr>
+</table>
+<div class="Mdate">2012-09-28</div>
+</li>
+<li>
+<table class="whoRes">
+<tr><td class="WhoR"><img src=""/></td><td><a href="#">小蜗牛</a>好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。好好哦。。。。我也想回家。。</td></tr>
+</table>
+<div class="Mdate">2012-09-28</div>
+</li>
+<form>
+<div id="Rest2" style="display:none;">
+<textarea class="ResTxt"></textarea>
+<input type="submit" value="确定"/>
+</form>
+</div>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>笔记具体内容</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="../js/noteContent.js"></script>
+<script type="text/javascript" src="../js/pageBarJQ.js"></script> 
+<script type="text/javascript" src="../js/pageBar.js"></script>
+<link href="../css/DiaryFrontPage.css" rel="stylesheet" type="text/css" />
+<link href="../css/noteContent.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="hit_area" onmouseover="toggleDown();">
+<img src="../image/logo3.jpg"/>
+<div class="topMenuContainer">
+<div id="topMenu">
+           <ul>
+           <li id="first"><a href="frontpage.html">首页</a></li>
+           <li><a href="diaryfrontpage.html">日志</a></li>
+           <li><a href="messageBoard.html">留言板</a></li>
+           <li><a href="microMood.html">微心情</a></li>
+           <li id="four"><a href="noteTitle.html">笔记</a></li>
+           <li><a href="memorial.html">备忘录</a></li>
+           <li><a href="uploadfile.html">文档保存</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+   <div id="menu_holder">
+      <div id="nav">
+           <label>欢迎来到Mspace</label>
+ 	<div id="lookup">
+	<input type="image" src="../image/soso.jpg"/>
+       <input type="text" value="搜索、找人" style="font-family:微软雅黑; " />
+	</div>
+   </div>
+</div>
+<div id="hit_area2" onmouseover="toggleUp();">
+<div class="hit2">
+
+<div class="centerContent">
+<div class="center">
+<div class="leftIfo">
+<div class="ifoTit">个人资料</div>
+<div class="Pimage"><a href="pictureFileup.html"><img src="../image/sp.gif" width="140"  height="140" border=0 alt="" /></a></div>
+<div class="UserName"><h2><a href="selfInformation.html">黄丹虹</a></h2></div>
+<table class="FandF">
+<tr>
+<td><a  href="concernedAndFans.html">关注</a><label class="careNum">120</label></td>
+<td><a href="concernedAndFans.html" >粉丝</a><label class="fanNum">766</label></td>
+</tr>
+</table>
+<div class="warn">
+<div class="warnTit"><a href="memorial.html">备忘录</a></div>
+<div class="d1" id="div1" onmouseover="clearInterval(timer)" onmouseout="timer=setInterval(mar,30)">
+   <div class="scroll" id="scroll">
+     <div class="div2" id="div2">
+        <ul>
+          <li>后天xx生日了后天xx生日了后天xx生日了</li>
+	<li>明天交作业</li>
+        </ul>
+</div>
+<div id="div3" class="div2"></div>
+</div> 
+</div>
+
+</div>
+
+</div>
+<div class="rightFrame">
+<div class="noteTit">
+<img src="../image/note2.gif" title="创建小标题" onclick="showSTit();"/>
+<a href="noteTitle.html"><img src="../image/return.gif" title="返回笔记首页"/></a>
+</div>
+
+<ul id="list">
+<!--第一页开始-->
+<li>
+<div class="noteCon">
+<div id="Stit" style="display:none;"><div class="Sttxt"><textarea class="Stxt" onblur="if(this.value == ''){this.value = '请输入笔记小标题'; }" 
+    onfocus="if(this.value == '请输入笔记小标题'){this.value =''; }" >请输入笔记小标题</textarea></div>
+<div class="Scon"><textarea class="Scon" onblur="if(this.value == ''){this.value = '请输入笔记内容'; }" 
+    onfocus="if(this.value == '请输入笔记内容'){this.value =''; }">请输入笔记内容</textarea>
+<input type="image" src="../image/sure.gif" onclick="dis();"/>
+</div>
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题一</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题一</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题一</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题一</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题一</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+</div>
+</div>
+</li>
+
+<!--第二页开始-->
+<li>
+<div class="noteCon">
+<div id="Stit" style="display:none;"><div class="Sttxt"><textarea class="Stxt" onblur="if(this.value == ''){this.value = '请输入笔记小标题'; }" 
+    onfocus="if(this.value == '请输入笔记小标题'){this.value =''; }" >请输入笔记小标题</textarea></div>
+<div class="Scon"><textarea class="Scon" onblur="if(this.value == ''){this.value = '请输入笔记内容'; }" 
+    onfocus="if(this.value == '请输入笔记内容'){this.value =''; }">请输入笔记内容</textarea>
+<input type="image" src="../image/sure.gif" onclick="dis();"/>
+</div>
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题二</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题二</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题二</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题二</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题二</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+</div>
+</div>
+</li>
+
+<!--第三页开始-->
+<li>
+<div class="noteCon">
+<div id="Stit" style="display:none;"><div class="Sttxt"><textarea class="Stxt" onblur="if(this.value == ''){this.value = '请输入笔记小标题'; }" 
+    onfocus="if(this.value == '请输入笔记小标题'){this.value =''; }" >请输入笔记小标题</textarea></div>
+<div class="Scon"><textarea class="Scon" onblur="if(this.value == ''){this.value = '请输入笔记内容'; }" 
+    onfocus="if(this.value == '请输入笔记内容'){this.value =''; }">请输入笔记内容</textarea>
+<input type="image" src="../image/sure.gif" onclick="dis();"/>
+</div>
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题三</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题三</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题三</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+
+</div>
+<div class="noteContentStyle">
+<table>三
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题三</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+
+</div>
+<div class="noteContentStyle">
+<table>
+<tr><th><div class="Stitle" onclick="edit.IN(this)" title="点击可修改">小标题三</div></th></tr>
+<tr><td clospan="2" ><div class="noteC" onclick="_edit.IN(this)" title="点击可修改">Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。Codemoz! 承诺绝不会给您发送任何垃圾邮件。</div></td></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td></tr>
+</table>
+</div>
+</div>
+</li>
+
+</ul>
+<!--下面是分页条的实现位置，注意别修改 id-->
+<div id="p1"></div>
+</div>
+</body>
+</html>

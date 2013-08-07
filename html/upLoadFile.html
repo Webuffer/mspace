@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>文档保存</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="../js/uploadfile.js"></script>
+<link href="../css/uploadfile.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="hit_area" onmouseover="toggleDown();">
+<img src="../image/logo3.jpg"/>
+<div class="topMenuContainer">
+<div id="topMenu">
+           <ul>
+           <li><a href="frontpage.html">首页</a></li>
+           <li><a href="diaryfrontpage.html">日志</a></li>
+           <li><a href="messageBoard.html">留言板</a></li>
+           <li><a href="microMood.html">微心情</a></li>
+           <li><a href="noteTitle.html">笔记</a></li>
+           <li><a href="memorial.html">备忘录</a></li>
+           <li  id="first"><a href="uploadfile.html">文档保存</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+   <div id="menu_holder">
+      <div id="nav">
+           <label>欢迎来到Mspace</label>
+ 	<div id="lookup">
+	<input type="image" src="../image/soso.jpg"/>
+       <input type="text" value="搜索、找人" style="font-family:微软雅黑; " />
+	</div>
+   </div>
+</div>
+<div id="hit_area2" onmouseover="toggleUp();">
+<div class="hit2">
+
+<div class="centerContent">
+<div class="center">
+<div class="leftIfo">
+<div class="ifoTit">个人资料</div>
+<div class="Pimage"><a href="pictureFileup.html"><img src="../image/sp.gif" width="140"  height="140" border=0 alt="" /></a></div>
+<div class="UserName"><h2><a href="selfInformation.html">黄丹虹</a></h2></div>
+<table class="FandF">
+<tr>
+<td><a  href="concernedAndFans.html">关注</a><label class="careNum">120</label></td>
+<td><a href="concernedAndFans.html" >粉丝</a><label class="fanNum">766</label></td>
+</tr>
+</table>
+<div class="warn">
+<div class="warnTit"><a href="memorial.html">备忘录</a></div>
+<div class="d1" id="div1" onmouseover="clearInterval(timer)" onmouseout="timer=setInterval(mar,30)">
+   <div class="scroll" id="scroll">
+     <div class="div2" id="div2">
+        <ul>
+          <li>后天xx生日了后天xx生日了后天xx生日了</li>
+	<li>明天交作业</li>
+        </ul>
+</div>
+<div id="div3" class="div2"></div>
+</div> 
+</div>
+
+</div>
+
+</div>
+<div class="rightFrame">
+<div>
+<a id="loadFile"><img src="../image/uploadfile.gif"/><input type="file" name="File" onclick="showWhy();"/></a>
+</div>
+<div class="whytxt" id="wt" style="display:none;"><form><textarea onblur="if(this.value == ''){this.value = '请输入上传原因或者描述一下该文件'; }" 
+    onfocus="if(this.value == '请输入上传原因或者描述一下该文件'){this.value =''; }">请输入上传原因或者描述一下该文件</textarea><input type="image" src="../image/sure1.gif" onclick="disappear();"/></form></div>
+
+<table class="fileList" id="Flist">
+<tr ><th class="date">上传时间</th><th class="fileName">文件名</th><th class="reason">上传原因或描述</th><th>下载</th><th class=>删除</th></tr>
+<tr><td class="date">2012-10-13</td><td class="fileName">java文档</td><td class="reason">有用嘛</td><td><img src="../image/load.gif" title="下载"/></td><td><img src="../image/delete.gif" title="删除"/></td></tr>
+<tr><td class="date">2012-10-13</td><td class="fileName">java文档</td><td class="reason">有用嘛</td><td><img src="../image/load.gif" title="下载"/></td><td><img src="../image/delete.gif" title="删除"/></td></tr>
+<tr><td class="date">2012-10-13</td><td class="fileName">java文档</td><td class="reason">有用嘛</td><td><img src="../image/load.gif" title="下载"/></td><td><img src="../image/delete.gif" title="删除"/></td></tr>
+<tr><td class="date">2012-10-13</td><td class="fileName">java文档</td><td class="reason">有用嘛</td><td><img src="../image/load.gif" title="下载"/></td><td><img src="../image/delete.gif" title="删除"/></td></tr>
+</table>
+<script language="javascript"><!--
+//senfe("表格名稱","奇數行背景","偶數行背景","鼠標經過背景","點擊後背景");
+senfe("Flist","#efe6aa","#ece8d1","#f0df6a");
+--></script>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+</body>
+</html>

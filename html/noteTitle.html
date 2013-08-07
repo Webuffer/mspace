@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>笔记一</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="../js/noteTitle.js"></script>
+<script type="text/javascript" src="../js/pageBarJQ.js"></script> 
+<script type="text/javascript" src="../js/pageBar.js"></script>
+<link href="../css/DiaryFrontPage.css" rel="stylesheet" type="text/css" />
+<link href="../css/noteTitle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="hit_area" onmouseover="toggleDown();">
+<img src="../image/logo3.jpg"/>
+<div class="topMenuContainer">
+<div id="topMenu">
+           <ul>
+           <li><a href="frontpage.html">首页</a></li>
+           <li><a href="diaryFrontPage.html">日志</a></li>
+           <li><a href="messageBoard.html">留言板</a></li>
+           <li><a href="microMood.html">微心情</a></li>
+           <li><a id="four" href="noteTitle.html">笔记</a></li>
+           <li><a href="memorial.html">备忘录</a></li>
+           <li><a href="uploadfile.html">文档保存</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+   <div id="menu_holder">
+      <div id="nav">
+           <label>欢迎来到Mspace</label>
+ 	<div id="lookup">
+	<input type="image" src="../image/soso.jpg"/>
+       <input type="text" value="搜索、找人" style="font-family:微软雅黑; " />
+	</div>
+   </div>
+</div>
+<div id="hit_area2" onmouseover="toggleUp();">
+<div class="hit2">
+
+<div class="centerContent">
+<div class="center">
+<div class="leftIfo">
+<div class="ifoTit">个人资料</div>
+<div class="Pimage"><a href="pictureFileup.html"><img src="../image/sp.gif" width="140"  height="140" border=0 alt="" /></a></div>
+<div class="UserName"><h2><a href="selfInformation.html">黄丹虹</a></h2></div>
+<table class="FandF">
+<tr>
+<td><a  href="concernedAndFans.html">关注</a><label class="careNum">120</label></td>
+<td><a href="concernedAndFans.html" >粉丝</a><label class="fanNum">766</label></td>
+</tr>
+</table>
+<div class="warn">
+<div class="warnTit"><a href="memorial.html">备忘录</a></div>
+<div class="d1" id="div1" onmouseover="clearInterval(timer)" onmouseout="timer=setInterval(mar,30)">
+   <div class="scroll" id="scroll">
+     <div class="div2" id="div2">
+        <ul>
+          <li>后天xx生日了后天xx生日了后天xx生日了</li>
+	<li>明天交作业</li>
+        </ul>
+</div>
+<div id="div3" class="div2"></div>
+</div> 
+</div>
+
+</div>
+
+</div>
+<div class="rightFrame">
+<div class="notetit">
+<input type="image" src="../image/newnote.gif" border=0 alt="" onclick="showtitle();"/>
+</div>
+<ul id="list">
+<!--第一页开始-->
+<li>
+<div class="noteCon">
+<div>
+<div class="newTitle" id="NT" style="display:none;">
+<textarea onblur="if(this.value == ''){this.value = '请输入笔记标题'; }" 
+    onfocus="if(this.value == '请输入笔记标题'){this.value =''; }" >请输入笔记标题</textarea>
+<input type="image" src="../image/sure.gif" onclick="display();"/></div>
+<div class="noteTitleStyle1">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题一</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题一</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改"  onclick="_edit.IN(this)">笔记标题一</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题一</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题一</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+</div>
+</div>
+</li>
+<!--第二页开始-->
+<li>
+<div class="noteCon">
+<div>
+<div class="newTitle" id="NT" style="display:none;">
+<textarea onblur="if(this.value == ''){this.value = '请输入笔记标题'; }" 
+    onfocus="if(this.value == '请输入笔记标题'){this.value =''; }" >请输入笔记标题</textarea>
+<input type="image" src="../image/sure.gif" onclick="display();"/></div>
+<div class="noteTitleStyle1">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题二</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题二</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改"  onclick="_edit.IN(this)">笔记标题二</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题二</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题二</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+</div>
+</div>
+</li>
+<!--第三页开始-->
+<li>
+<div class="noteCon">
+<div>
+<div class="newTitle" id="NT" style="display:none;">
+<textarea onblur="if(this.value == ''){this.value = '请输入笔记标题'; }" 
+    onfocus="if(this.value == '请输入笔记标题'){this.value =''; }" >请输入笔记标题</textarea>
+<input type="image" src="../image/sure.gif" onclick="display();"/></div>
+<div class="noteTitleStyle1">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题三</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题三</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改"  onclick="_edit.IN(this)">笔记标题三</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题三</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+<div class="noteTitleStyle2">
+<table>
+<tr><td class="noteDt">2012-09-25</td><th rowspan="2" class="notetit" ><div class="Notet" title="点击可修改" onclick="_edit.IN(this)">笔记标题三</div></th></tr>
+<tr><td><img src="../image/delete.gif" title="删除"/><img src="../image/save.gif" title="保存"/></td><td><a href="noteContent.html"><img src="../image/forward.gif" title="查看具体内容"/></a></td></tr>
+</table>
+<div class="tips">（单击日志标题可重新编辑）</div>
+</div>
+</div>
+</div>
+</li>
+
+
+</ul>
+<!--下面是分页条的实现位置，注意别修改 id-->
+<div id="p1"></div>
+
+</div>
+
+</div>
+</body>
+</html>

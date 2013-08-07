@@ -1,0 +1,372 @@
+﻿/* this is used to style the turotial page.Download by http://www.codefans.net */
+body {
+	
+	margin: 0px;
+	padding: 0px;
+	font-family: 微软雅黑, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px; 
+	color: #666666;
+	line-height: 180%;
+}
+
+
+/* this is the CSS for the menu that you will need. */
+#menu_holder {
+	height: 40px;
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: -40px;
+}
+#nav {
+	height: 40px;
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+	background-image: url(../image/middle.png);
+	background-repeat: repeat-x;
+	background-position: right;
+}
+
+#hit_area {
+	height: 100px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	background-color:#80c3e6;
+}
+
+
+#menu_holder label{
+float:left;
+}
+#lookup{
+margin-top:5px;
+padding:0px;
+float:right;
+}
+#lookup input{
+float:right;
+} 
+
+
+#hit_area2 {
+	width: 100%;
+	height:1000px;
+	display: block;
+	position: absolute;
+	margin: 0px;
+	left: 0px;
+	top: 120px;
+
+	padding:0px;
+}
+.hit2{
+float:left;
+width:100%;
+padding:0px;
+}
+
+.centerContent{
+	width: 898px;
+	height:1500px;
+	
+	margin-right: auto;
+	margin-left: auto;
+	padding:0px;
+	
+}
+.center{
+background-color:#f0edcf;
+padding-top: 0px;
+padding-bottom: 30px;
+float:left;
+}
+.topMenuContainer{
+width:588px;
+padding:0px;
+margin-top:0px;
+position:absolute;
+left:390px;
+top:60px;
+
+}
+#topMenu{
+	border-top:1px solid #ffffff;
+        height: 40px;
+	width:588px;
+	margin: 0px auto;
+	padding: 0px;
+	background-position: right;
+        background-image: url(../image/right1.png);
+	background-repeat: no-repeat;
+
+}
+#topMenu ul {
+	margin: 0px;
+	padding: 0px 0px 0px 14px;
+	height: 40px;
+	list-style-type: none;
+	background-image: url(../image/left1.png);
+	background-repeat: no-repeat;
+}
+#topMenu li{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	
+}
+#topMenu #first{
+background-color:#b75d5d;
+
+}
+#topMenu li a:link, #topMenu li a:active, #topMenu li a:visited {
+	background-image: url(../image/middle.png);
+	background-repeat: repeat-x;
+	height: 40px;
+	width:80px;
+	display: block;
+	line-height: 40px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	font-family:  微软雅黑, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 110%;
+}
+#topMenu li a:focus, #topMenu li a:hover{
+	text-decoration : none;
+	-moz-outline:0;
+	color: #FFFFFF;
+	background-image: url(../image/rollOver1.png);
+	background-repeat: repeat-x;
+}
+
+.rightFrame{
+
+width:898px;
+
+overflow-y:visible;
+float:left;
+padding-top:0px;
+border-left:1px solid #ffffff;
+}
+
+.ifoTit{
+font-family:  微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+background-image:url(../image/ifo.gif);
+text-align:left;
+padding-left:10px;    /* 增加的样式 */
+}
+.Pimage{
+margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+}
+.sex{
+font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+.UserName a{
+color:#0a70e2;
+text-decoration:none;
+padding:5px auto 5px auto;
+
+}
+.FandF{
+margin-left:auto;
+margin-right:auto;
+}
+.FandF a{
+font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 120%;
+padding:5px 5px 5px 5px;
+color:#0a70e2;
+text-decoration:none;
+margin-left:auto;
+margin-right:auto;
+}
+.FandF a:hover,.UserName a:hover,.warnTit a:hover,.FandF a:focus,.UserName a:focus,.warnTit a:focus{
+color:#f282e1;
+text-decoration:underline;
+}
+
+
+.warnTit{
+font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+background-image:url(../image/ifo.gif);
+text-align:left;
+padding-left:10px;   /* 增加的样式 */
+}
+.warnTit a{
+text-decoration:none;
+color: #666666;      /* 修改的样式 */
+}
+.warning{
+padding-top:5px;
+text-align:left;
+border-bottom:1px solid #ffffff;
+}
+.d1 {
+margin:4px auto;
+width:196px;
+overflow:hidden;
+white-space:nowrap;
+}
+
+.div2 {float:left;}
+
+.div2 ul{
+margin:0px;
+padding:0px;
+list-style-type:none;
+}
+.div2 ul li{
+margin-bottom:5px;
+border-bottom:1px solid #ffffff;
+background-color:#FFEEE2;
+}
+.action{
+border-bottom:1px solid #ffffff;
+padding:0px;
+background-image:url(../image/action1.gif);
+background-repeat:no-repeat;
+background-position:left;
+font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding-left:18px;     /*已修改*/
+}
+
+
+.actLeft{
+width:878px;
+height:auto;
+float:left;
+padding:10px;
+overflow-y:visible;
+}
+.feel{
+border-bottom:0px solid #ffffff;      /* 修改的样式*/ 
+}
+.moodWarm{
+margin-left:24px;
+color:red;
+}
+.feel textarea{
+width:400px;
+height:70px;
+overflow-y:hidden;
+font-family:微软雅黑, Arial;
+font-size:14px; 
+resize:none;
+outline:none;
+margin-top:0;
+}
+
+.feelLab{
+margin-top:10px;
+margin-left:-10px;
+margin-bottom:10px;
+background-image:url(../image/action1.gif);
+background-repeat:no-repeat;
+background-position:left;
+padding-left:18px;            /* 已修改*/
+}
+
+.Daily .dailyLab{
+margin-top:10px;
+margin-left:-10px;
+margin-bottom:10px;
+background-image:url(../image/action1.gif);
+background-repeat:no-repeat;
+background-position:left;
+padding-left:18px;            /* 已修改*/
+}
+.actRight .messTit{
+margin-top:-27px;       /* 已修改*/
+margin-left:-4px;       /* 已修改*/
+background-image:url(../image/action1.gif);
+background-repeat:no-repeat;
+background-position:left;
+padding-left:18px;              /* 已修改*/
+}
+.feel .feelLab a,.Daily .dailyLab a,.actRight .messTit a{
+font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+font-weight: bold;  
+color: #666666;       /* 修改的样式 */
+text-decoration:none;
+}
+
+.feel .feelLab a:hover,.Daily .dailyLab a:hover,.actRight .messTit a:hover{
+color:#f282e1;
+text-decoration:underline;
+}
+.feeling .Feeldate{
+color:#23b7e7;
+}
+.Daily{
+overflow-y:visible;
+height:auto;
+}
+
+.Daily Dtitle{
+color:#000000;
+}
+a.Dbut:hover{
+color:#f282e1;
+}
+.Ddate ,.Dbutt{
+width:100px;
+}
+
+.Dtitle{
+width:400px;
+}
+.Dcontent{
+background-color:#d4d6d1;
+}
+
+.actRight a{
+color:#23b7e7;
+}
+.actRight a:hover{
+color:#f282e1;
+}
+.mes1 td{
+border-bottom:1px solid #ffffff;
+padding-bottom:5px;
+}
+
+
+
+#expression a{
+text-decoration:none;
+}
+#expression{
+z-index:1;
+position:absolute;
+left:800px;
+top:140px;
+background-color:#ffffff;
+}
+#expression table{
+text-align:center;
+border:1px solid #000000;
+
+}
+table a:hover{
+color:#ffabcd;
+}
+
+
+
+
+
+
+
+
+

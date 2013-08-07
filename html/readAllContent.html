@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>日志首页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="../js/frontPage.js"></script>
+<script type="text/javascript" src="../js/allfriends.js"></script>
+<script type="text/javascript" src="../js/comments.js"></script>
+<link href="../css/DiaryFrontPage.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--首页上边固定导航栏-->
+<div id="hit_area" onmouseover="toggleDown();">
+<img src="../image/logo3.jpg"/>
+<div class="topMenuContainer">
+<div id="topMenu">
+           <ul>
+           <li id="first"><a href="frontPage.html">首页</a></li>
+           <li><a href="diaryFrontPage.html">日志</a></li>
+           <li><a href="messageBoard.html">留言板</a></li>
+           <li><a href="microMood.html">微心情</a></li>
+           <li><a href="noteTitle.html">笔记</a></li>
+           <li><a href="memorial.html">备忘录</a></li>
+           <li><a href="upLoadFile.html">文档保存</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+
+<div id="menu_holder">
+      <div id="nav">
+           <label>欢迎来到Mspace</label>    <!--修改-->
+ 	<div id="lookup">
+	<input type="image" src="../image/soso.jpg"/>
+                <input type="text" value="搜索、找人" style="font-family:微软雅黑; " />
+                </div>
+      </div>
+</div>
+
+<div id="hit_area2" onmouseover="toggleUp();">
+<div class="hit2">
+<!--上面还有两个div没有关掉，在</body>前的两个</div>为其关闭-->
+
+<!--主导航条下的主内容开始-->
+<div class="centerContent">
+<div class="center">
+
+<!--日志左边栏开始-->
+<div class="leftIfo">
+<div class="ifoTit">日志索引</div>
+<div class="writeDiary"><img src="../image/newdiary.png" width="25" height="25">&nbsp;&nbsp;<a href="writeDiaryPage.html"><img src="../image/newdiary.gif" border=0 alt=""></a></div>
+<div class="ifoTit2">
+日志统计
+</div>
+<div class="all"><img src="../image/all.png" width="25" height="25">&nbsp;&nbsp;日志总数&nbsp;&nbsp;<span>35</span></div>
+
+</div>
+<!--日志左边栏结束-->
+
+<!--中间和右边栏开始-->
+<div class="rightFrame">
+<div class="action">日志全文</div>
+
+<!--中间栏开始-->
+<div class="actLeft">
+<div class="feel">
+<div class="diaryTitle">网页设计要素（标题）
+<span style="float:right; font-weight:normal; ">2012-10-09</span>
+</div>
+<!--下面文本不能编辑，只是简单的查看全文而已，所以没有添加form表单提交-->
+
+<p style="color:black;">
+日志内容有时候我们在网页中插入图片，图片会被撑开外部的容器，溢出到外面。css中有一个属性为max-width，max-width 定义元素的最大宽度。W3C在其官方文档中说“所有主流浏览器都支持 max-width 属性。”扯淡，IE6就不支持该属性，图片照样被撑开。IE下，图片会直接把外框撑宽。所以，在做IE兼容的时候大家都用js控制，现在分享下使用jquery控制图片宽度的方法。主代码如下：
+有时候我们在网页中插入图片，图片会被撑开外部的容器，溢出到外面。css中有一个属性为max-width，max-width 定义元素的最大宽度。W3C在其官方文档中说“所有主流浏览器都支持 max-width 属性。”扯淡，IE6就不支持该属性，图片照样被撑开。IE下，图片会直接把外框撑宽。所以，在做IE兼容的时候大家都用js控制，现在分享下使用jquery控制图片宽度的方法。主代码如下：
+有时候我们在网页中插入图片，图片会被撑开外部的容器，溢出到外面。css中有一个属性为max-width，max-width 定义元素的最大宽度。W3C在其官方文档中说“所有主流浏览器都支持 max-width 属性。”扯淡，IE6就不支持该属性，图片照样被撑开。IE下，图片会直接把外框撑宽。所以，在做IE兼容的时候大家都用js控制，现在分享下使用jquery控制图片宽度的方法。主代码如下：
+有时候我们在网页中插入图片，图片会被撑开外部的容器，溢出到外面。css中有一个属性为max-width，max-width 定义元素的最大宽度。W3C在其官方文档中说“所有主流浏览器都支持 max-width 属性。”扯淡，IE6就不支持该属性，图片照样被撑开。IE下，图片会直接把外框撑宽。所以，在做IE兼容的时候大家都用js控制，现在分享下使用jquery控制图片宽度的方法。主代码如下：
+</p>
+
+<div class="link4">阅读（3） | <a href="editDiaryPage.html">编辑</a> | <a href="#">删除</a> </div>
+
+
+<div class="head5"><img src="../image/conment.png" width="25" height="25" border=0 alt="" style="margin-bottom:-6px;">&nbsp;&nbsp;评论列表</div>
+<hr class="hr" />
+<!--评论框开始-->
+<div id="comment">
+<form method="post"  action="##"   name="comment_information">
+<table>
+<tr><td>
+<a href="##"><img src="../image/vae.jpg" width="72" height="72" border=0 alt="许嵩"  /></a>
+</td>
+<td id="commentLists">
+<textarea  rows="5"  cols="50" wrap="physical" class="textarea"  id="comments" name="diaryComment" style="outline:none; resize:none;"></textarea>
+</td>
+<td><img src="../image/submit2.gif" border=0 alt=""  style="margin-top:55px;"></td>
+</tr>
+</table>
+</form>
+</div>
+<!--评论框结束-->
+<br /><br />
+<!--发表后的内容放在下面-->
+<div>
+<table>
+<tr><td rowspan="2">
+<a href="##"><img src="../image/vae.jpg" width="60" height="60" border=0 alt="" /></a>
+</td>
+<td>我要经常光临 Mspace ...</td>
+</tr>
+<tr>
+<td class="link4"><a href="##">许嵩</a>&nbsp;&nbsp; 2012-10-20 &nbsp;21:20 &nbsp;&nbsp; <a href="##" id="backUp1" onclick="writeBackComment(1)">回复</a>&nbsp;&nbsp;<a href="##">删除</a>
+</td>
+</tr> 
+</table>
+</div>
+<!--点击 回复 可以弹出以下输入框 -->
+<div id="backDown1" style="display: none;">
+<table>
+<tr><td>
+<textarea  rows="5"  cols="50" wrap="physical"   id=" " name="backComment"  style="margin-left:70px; outline:none; resize:none; font-family:微软雅黑, arial; ">
+</textarea></td>
+<td><img src="../image/submit.gif" border=0 alt=""  style="margin-top:55px;"></td>
+</tr></table>
+</div>
+
+<!--回复-->
+<div>
+<table>
+<tr><td rowspan="2">
+<a href="##"><img src="../image/image4.jpg" width="50" height="50" border=0 alt="" style="margin-left:60px;" /></a>
+</td>
+<td>没错！我也要经常光临 Mspace！！！</td>
+</tr>
+<tr>
+<td class="link4"><a href="##">松鼠</a>&nbsp;&nbsp;回复&nbsp;&nbsp;许嵩 &nbsp;&nbsp; 2012-10-20 &nbsp;21:20 &nbsp;&nbsp; <a href="##" id="backUp2" onclick="writeBackComment(2)">回复</a>
+</td>
+</tr> 
+</table>
+</div>
+<!--此处是在回复中再次给以回复，同样原理可以弹出以下输入框 -->
+<div id="backDown2" style="display: none;">
+<table>
+<tr><td>
+<textarea  rows="5"  cols="50" wrap="physical"   id=" " name="backComment2"  style="margin-left:120px; outline:none; resize:none; font-family:微软雅黑, arial; ">
+</textarea></td>
+<td><img src="../image/submit.gif" border=0 alt=""  style="margin-top:55px;"></td>
+</tr></table>
+</div>
+
+<!--下一条评论-->
+<div>
+<table>
+<tr><td rowspan="2">
+<a href="##"><img src="../image/vae.jpg" width="60" height="60" border=0 alt="" /></a>
+</td>
+<td>我要经常光临 Mspace ...</td>
+</tr>
+<tr>
+<td class="link4"><a href="##">许嵩</a>&nbsp;&nbsp; 2012-10-20 &nbsp;21:20 &nbsp;&nbsp; <a href="##">回复</a>&nbsp;&nbsp;<a href="##">删除</a>
+</td>
+</tr> 
+</table>
+</div>
+
+<!--发表后的内容放在上面-->
+
+</div>
+</div>
+<!--中间栏结束-->
+
+<!--右边栏开始-->
+<div class="actRight">
+<div class="messTit">好友日志&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight:normal;">（点击头像查看）</div>
+<table cellspacing="0" cellpadding="0" style="margin-top:10px;">
+<tr><td>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+</td></tr>
+
+<tr><td>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+</td></tr>
+</table>
+
+<!--下面是点击更多好友日志后的显示域-->
+<div id="down_friends" style="display: none;">
+<table cellspacing="0" cellpadding="0" style="margin-top:0px;">
+<tr><td>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+</td></tr>
+
+<tr><td>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+</td></tr>
+
+<tr><td>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+<a href="#"><img src="../image/vae.jpg" width="60" height="60" border=0 alt=""></a>
+</td></tr>
+</table>
+</div>
+<!--显示域结束-->
+<div class="link4" align="center"><a href="#" id="up_friends" onclick="show_friends()" >更多好友日志...</a></div>
+</div>
+<!--右边栏结束-->
+
+
+</div>
+</div>
+<!--主导航条下的主内容结束-->
+
+</div>
+</div>
+
+
+</body>
+</html>
+
+

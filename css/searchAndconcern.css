@@ -1,0 +1,19 @@
+﻿.button{ 
+height:26px; 
+width:40px;  
+}
+.search{
+width:237px;
+height:20px;
+font-family:微软雅黑, Arial, sans-serif;
+font-size:14px;
+outline:none;
+margin-left:110px;
+margin-top:5px;
+padding-left:3px;
+}
+.linkMs a{text-decoration:none; }
+.linkMs{
+margin-top:8px; 
+margin-left:0px;
+}
