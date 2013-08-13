@@ -1,0 +1,219 @@
+/*
+项目：“大学生小空间 ”网站
+作者：Webuffer
+设计时间：2013-08-12
+*/
+
+html{
+	font-size: 62.5%;
+}
+body, ul{
+	margin: 0;
+	padding: 0;
+	font-family:  "宋体", arial, sans-serif;
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+ul{
+	list-style-type: square;
+}
+.clear{
+	clear: both;
+}
+.topbar{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #ddd;
+}
+.tool-container{
+	width: 320px;
+	float: right;
+	margin-right: 100px;
+	margin-top: 3px;
+}
+.search{
+	float: left;
+}
+.search input{
+	width: 150px;
+	height: 20px;
+	outline: none;
+	border: 1px solid #ddd;
+	border-right: 0;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	font-size: 13px;
+	font-size: 1.3rem;
+	text-indent: 2px;
+}
+.search button{
+	height: 24px;
+	margin-left: -10px;
+	font-size: 13px;
+	font-size: 1.3rem;
+	border: 1px solid #ddd;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	cursor: pointer;
+}
+.login-register{
+	float: right;
+}
+.login-register a{
+	width: 35px;
+	height: 23px;
+	display: inline-block;
+	font-size: 13px;
+	font-size: 1.3rem;
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	line-height: 24px;
+	text-align: center;
+}
+.header{
+	width:1000px;
+	height: 185px;
+	margin: 10px auto;
+}
+.menu a{
+	text-decoration: none;
+	border: 1px solid #ddd;
+	display: inline-block;
+	font-weight: bold;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 8px;
+}
+.container{
+	width: 1000px;
+	position: relative;
+	border: 1px solid #ddd;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.sidebar{
+	width:220px;
+	float: left;
+}
+.main{
+	width: 778px;
+	min-height: 800px;
+	float: right;
+	border-left: 1px solid #ddd;
+}
+.title-bar{
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #ddd;
+	border-left: 0;
+	text-indent: 8px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.title-bar a{
+	text-decoration: none;
+}
+/* 头像 */
+.avatar{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #ddd; 
+	margin: 15px auto;
+}
+.avatar a{
+	display: block;
+	margin: 5px 5px;
+}
+.avatar a img{
+	width: 140px;
+	height: 140px;
+	border: none;
+}
+/* 昵称 */
+.nick-name{
+	text-align: center;
+}
+.nick-name a{
+	text-decoration: none;
+}
+/* 关注和粉丝 */
+.fans{
+	text-align: center;
+}
+.fans dl dt, .fans dl dd{
+	display: inline;
+	margin: 0;
+}
+/* 备忘录 */
+.alert-details{
+	width: 210px;
+}
+.alert-details ol{
+	margin-top: 20px;
+}
+.alert-details ol em{
+	font-style: normal;
+}
+.alert-title, .alert-time, .alert-content{
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+.alert-content p{
+	margin: 0;
+}
+.alert-content{
+	margin-bottom: 15px;
+}
+.feel-form textarea{
+	width: 680px;
+	height: 50px;
+	outline: none;
+	margin: 15px 0 0 15px;
+	border: 1px solid #ddd;
+}
+.feel-submit{
+	margin: 10px 0 0 13px;
+	padding: 0;
+}
+/* 微心情，最新日志，最新留言 */
+.feel-content ul, .new-dairies ul, .new-words ul{
+	margin: 20px 15px 15px 30px;
+}
+.feel-content ul li a, .new-dairies ul li a, .new-words ul li a{
+	text-decoration: none;
+}
+.feel-content ul li, .new-words ul li{
+	margin-bottom: 25px;
+}
+.new-dairies ul li em{
+	font-style: normal;
+}
+.new-dairies ul li{
+	margin-bottom: 18px;
+}
+.footer{
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+.footer-links{
+	margin-top: 30px;
+}
+.footer-links ul li{
+	display: inline;
+}
+.footer-links ul li a{
+	text-decoration: none;
+}
+.footer-links ul li a:hover{
+	text-decoration: underline;
+}
