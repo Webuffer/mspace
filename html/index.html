@@ -3,33 +3,38 @@
 <head>
 	<meta charset="utf-8">
 	<title>首页 - 大学生小空间 </title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/all.css" rel="stylesheet">
 </head>
 <body>
 	<div class="topbar">
 		<div class="tool-container">
-			<div class="search">
+			<div class="input-append search">
 				<form action="" method="post" name="searchBox">
-					<input type="text" placeholder="请输入搜索内容">
-					<button type="button">搜索</button>
+					<input class="span2" id="appendedInputButton" type="text" placeholder="请输入搜索内容">
+					<button class="btn" type="button">搜索</button>
 				</form>
 			</div>
 			<div class="login-register">
-				<a href="#">注册</a>
-				<a href="#">登录</a>
+				<a href="#" class="btn">注册</a>
+				<a href="#" class="btn">登录</a>
 			</div>
 		</div>
 	</div>
 	<header class="header">
 		<img src="../image/logo.png">
-		<nav class="menu">
-			<a href="index.html">首页</a>
-			<a href="">日志</a>
-			<a href="">留言板</a>
-			<a href="">微心情</a>
-			<a href="">笔记</a>
-			<a href="">备忘录</a>
-			<a href="">文档保存</a>
+		<nav class="navbar">
+			<div class="navbar-inner">
+				<ul class="nav">
+					<li class="active"><a href="index.html">首页</a></li>
+					<li><a href="#">日志</a></li>
+					<li><a href="#">留言板</a></li>
+					<li><a href="#">微心情</a></li>
+					<li><a href="#">笔记</a></li>
+					<li><a href="#">备忘录</a></li>
+					<li><a href="#">文档保存</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>
 	<div class="container">
@@ -37,7 +42,7 @@
 			<div class="sidebar">
 				<section>
 					<div class="title-bar">
-						<a href="#">个人资料</a>
+						<a href="#"><i class="icon-user icon-white"></i>个人资料</a>
 					</div>
 					<div class="avatar">
 						<a href="#" title="更改头像">
@@ -58,7 +63,7 @@
 				</section>
 				<section>
 					<div class="title-bar">
-						<a href="#">备忘录</a>
+						<a href="#"><i class="icon-lock icon-white"></i>备忘录</a>
 					</div>
 					<div class="alert-details">
 						<ol>
@@ -97,13 +102,13 @@
 			<div class="main">
 				<section>
 					<div class="title-bar">
-						<a href="#">最近心情</a>
+						<a href="#"><i class="icon-fire icon-white"></i>最近心情</a>
 					</div>
 					<div class="feel-form">
 						<form action="" method="post" name="">
-							<textarea required placeholder="现在的心情怎样？赶紧跟大家分享下 ~~"></textarea>
+							<textarea rows="3" required placeholder="现在的心情怎样？赶紧跟大家分享下 ~~"></textarea>
 							<div class="feel-submit">
-								<input type="submit" value="发布">
+								<input class="btn btn-primary" type="submit" value="发布">
 							</div>
 						</form>
 					</div>
@@ -126,7 +131,7 @@
 				</section>
 				<section>
 					<div class="title-bar">
-						<a href="#">最新日志</a>
+						<a href="#"><i class="icon-book icon-white"></i>最新日志</a>
 					</div>
 					<div class="new-dairies">
 						<ul>
@@ -147,7 +152,7 @@
 				</section>
 				<section>
 					<div class="title-bar">
-						<a href="#">最近留言</a>
+						<a href="#"><i class="icon-comment icon-white"></i>最近留言</a>
 					</div>
 					<div class="new-words">
 						<ul>
