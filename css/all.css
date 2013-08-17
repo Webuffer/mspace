@@ -4,6 +4,7 @@
 设计时间：2013-08-12
 */
 
+/* ---------------------- index.html ------------------------*/
 html{
 	font-size: 62.5%;
 }
@@ -78,6 +79,7 @@ i{
 	text-indent: 8px;
 	margin-top: 15px;
 	background-color: #0bcab6;
+	color: #fff;
 }
 .title-bar a{
 	color: #fff;
@@ -185,4 +187,33 @@ i{
 }
 .footer p{
 	margin-top: 10px;
+}
+
+/* ---------------------- dairies.html ------------------------*/
+.total-dairies{
+	margin: 20px 0 20px 25px;
+}
+.add-new{
+	margin: 0 0 20px 25px;
+}
+.select-dairies{
+	margin: 20px 15px 20px 25px;
+}
+.dairies-list ul{
+	margin: 20px 15px 15px 30px;
+}
+.list-details{
+	margin: 10px 0 13px 0;
+}
+.read-num em{
+	font-style: normal;
+}
+.read-num em:before{
+	content: "（";
+}
+.read-num em:after{
+	content: "）";
+}
+.dairies-pagination{
+	margin: 30px 0 20px 25px;
 }
